@@ -2,6 +2,11 @@
 
 Serves as a starting point for a GraalVM native-image application built with Gradle.
 
+## How to use
+
+Download [the ZIP file](https://github.com/mhalbritter/gradle-graalvm-skeleton/archive/refs/heads/main.zip), extract it
+somewhere and start hacking.
+
 ## Building a native-image
 
 ```shell
