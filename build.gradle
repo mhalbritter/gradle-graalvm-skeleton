@@ -1,0 +1,20 @@
+plugins {
+    id 'application'
+    id 'org.graalvm.buildtools.native' version '0.9.17'
+}
+
+application {
+    mainClass = 'gradle.graalvm.skeleton.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+graalvmNative {
+    binaries {
+        main {
+            requiredVersion = '22.3'
+        }
+    }
+}
